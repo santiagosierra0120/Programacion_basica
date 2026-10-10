@@ -1,13 +1,11 @@
-public class Receta_de_cocina {
-
-    public static void main(String[] args) {
+public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingresa el nombre de la receta");
         String nombreReceta = scanner.nextLine();
         System.out.println("Ingresa los ingredientes principales");
         String ingredientesPrincipales;
         ingredientesPrincipales = scanner.nextLine();
-        System.out.println("Ingresa el tiempo de preaparacion (en minutos):" );
+        System.out.println("Ingresa el tiempo de preparacion (en minutos):" );
         int tiempoPreparacion;
         tiempoPreparacion = scanner.nextInt();
         scanner.nextLine();
@@ -24,3 +22,4 @@ public class Receta_de_cocina {
         System.out.println("========================================");    
     }
 }
+    
