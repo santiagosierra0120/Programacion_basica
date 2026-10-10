@@ -1,30 +1,23 @@
-public class Sistema_empleados {
-
-    public static void main(String[] args) {
+public class Sistema_de_Empleados {
+public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);
-
-        // Declarar las variables
-        String nombre;
-        int edad;
-        double salario;
-        boolean esJefe;
-
-        // Solicitar los datos del empleado
         System.out.print("Ingrese el nombre del empleado: ");
+        String nombre;
         nombre = entrada.nextLine();
 
         System.out.print("Ingrese la edad del empleado: ");
+        int edad;
         edad = entrada.nextInt();
 
         System.out.print("Ingrese el salario del empleado: ");
+        boolean esJefe;
+        double salario;
         salario = entrada.nextDouble();
-
         System.out.print("¿Es jefe de departamento? (true/false): ");
         esJefe = entrada.nextBoolean();
 
-        // Imprimir la información del empleado
-        System.out.println("\n===== SISTEMA DE EMPLEADOS =====");
+        System.out.println("===== SISTEMA DE EMPLEADOS =====");
         System.out.println("Nombre del empleado: " + nombre);
         System.out.println("Edad: " + edad + " años");
         System.out.println("Salario: $" + salario);
@@ -33,3 +26,4 @@ public class Sistema_empleados {
         entrada.close();
     }
 }
+
