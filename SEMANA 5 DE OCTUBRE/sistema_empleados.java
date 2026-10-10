@@ -17,13 +17,13 @@ public static void main(String[] args) {
         System.out.print("¿Es jefe de departamento? (true/false): ");
         esJefe = entrada.nextBoolean();
 
-        System.out.println("===== SISTEMA DE EMPLEADOS =====");
+        System.out.println("========= SISTEMA DE EMPLEADOS =========");
         System.out.println("Nombre del empleado: " + nombre);
         System.out.println("Edad: " + edad + " años");
         System.out.println("Salario: $" + salario);
         System.out.println("Es jefe de departamento: " + esJefe);
+        System.out.println("=======================================");
 
         entrada.close();
     }
 }
-
