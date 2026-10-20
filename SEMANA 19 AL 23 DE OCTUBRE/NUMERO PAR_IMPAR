@@ -1,1 +1,11 @@
-
+Algoritmo numero_par_impar
+	Definir Num Como Real
+	escribir "ingresa un numero"
+	Leer Num
+	si Num MOD 2=0 Entonces
+		Escribir "el numero es par"
+	SiNo
+		Escribir "el numero es impar"
+	
+	FinSi
+FinAlgoritmo
