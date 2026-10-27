@@ -1,0 +1,10 @@
+Algoritmo fin_de_semana
+	Definir dia como Entero
+	Escribir "Dame un numero de dia"
+	Leer dia
+	Si dia >= 1 y dia < 7 Entonces
+		Escribir " No es fin de semana "
+	SiNo
+		Escribir " Si es fin de semana "
+	Fin Si
+FinAlgoritmo
