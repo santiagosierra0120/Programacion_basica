@@ -1,1 +1,10 @@
-
+Algoritmo Pedir_Nota
+	Definir nota como Real
+	Escribir "Escribe la nota"
+	Leer nota
+	Si nota >= 0 y nota <= 5.0
+		Escribir "Nota valida"
+	SiNo
+		Escribir "Nota falsa"
+	Fin Si
+FinAlgoritmo
