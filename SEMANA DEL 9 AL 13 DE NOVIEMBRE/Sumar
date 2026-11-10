@@ -1,0 +1,10 @@
+Algoritmo Sumando
+Definir i,suma,n Como Entero
+Escribir "dame un numero"
+leer n
+suma<-0
+Para i <- 1 Hasta n
+suma <- suma+1
+  Escribir "el resultado de la suma es: " ,suma
+FinPara
+FinAlgoritmo
