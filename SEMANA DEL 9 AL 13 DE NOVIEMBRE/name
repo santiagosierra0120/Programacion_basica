@@ -1,0 +1,13 @@
+Algoritmo name
+Definir i,suma,n Como Entero
+Definir nombre Como caracter
+Escribir "dame tu Nombre:"
+leer nombre
+Escribir "tu nombre se repitio"
+Leer n
+Para i <- 1 Hasta n
+  Escribir "su nombre es: " ,nombre
+FinPara
+Escribir "la cantidad de nombres repetidos es",n
+FinAlgoritmo
+
